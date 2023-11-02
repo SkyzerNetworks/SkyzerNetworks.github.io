@@ -19,16 +19,31 @@
 .headerBlock {
     width: 100%;
     height: 10em;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
 }
 
-.txtBlock {
-    width: 40em;
+.imageIcon {
+    width: 5%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-    left: 10em;
+    background-color: black;
+}
+
+.imageIcon img {
+    width: auto;
+    height: 75%;
+}
+.txtBlock {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
 }
 
 .headerTxt {
@@ -37,4 +52,27 @@
     font-family: monospace;
     text-shadow: 10px 10px 20px rgb(119, 119, 146);
     padding: 30px;
+}
+
+
+
+
+
+
+
+
+/* MEDIA TAGS */
+
+@media (max-width: 500px) {
+    .headerBlock {
+        height: 5em;
+    }
+
+    .imageIcon {
+        width: 20%;
+    }
+    
+    .txtBlock {
+        width: 30%;
+    }
 }
