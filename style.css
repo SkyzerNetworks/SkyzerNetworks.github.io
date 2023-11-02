@@ -22,15 +22,20 @@
     display: flex;
     flex-direction: row;
     align-items: start;
+    transition: 0.5s;
 }
 
+.headerBlock:hover {
+    background-color: rgba(0, 0, 0, 0.411);
+    border-bottom: 2px solid white;
+    box-shadow: 0 0 20px rgb(20, 20, 20);
+}
 .imageIcon {
     width: 5%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
 }
 
 .imageIcon img {
@@ -43,7 +48,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: green;
 }
 
 .headerTxt {
@@ -73,6 +77,10 @@
     }
     
     .txtBlock {
-        width: 30%;
+        width: 60%;
+    }
+
+    .txtBlock h1 {
+        font-size: 1.5em;
     }
 }
