@@ -7,6 +7,30 @@
     cursor: default;
 }
 
+/* Scroll Bar Code (Copied from w3schools.com)*/
+
+/* width */
+::-webkit-scrollbar {
+    width: 1vw;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #383942;
+    border-left: .2vw solid white;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #6c707a;
+    border-left: .2vw solid white;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #61646e;
+  }
+
 /* Page Color Change */
 
 body {
@@ -75,6 +99,7 @@ body {
     height: 10vh;
     background-color: rgb(26, 26, 35);
     border-bottom: .3vh solid white;
+    overflow: hidden;
 }
 
 #nav-container {
@@ -82,25 +107,59 @@ body {
     height: 100%;
     display: flex;
     justify-content: start;
-    align-items: center;
+    align-items: baseline;
     gap: 2vw;
+    overflow: hidden;
 }
 
-#nav-container a {
-    color:rgb(229, 229, 255);
-    padding: .5vw;
-    width: 8vw;
-    background-color: rgb(58, 58, 74);
-    text-align: center;
-    text-decoration: none;
-    border-radius: 2vw;
+.nav-norm_buttons {
+    width: 10vw;
+    height: 100%;
+    background-color: rgb(55, 56, 68);
     position: relative;
     left: 2vw;
-    font-size: 2vw;
-    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: 1s;
 }
 
-#nav-container a:hover {
-    font-size: 2.6vw;
+.nav-norm_buttons p {
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    font-size: 1.4vw;
+    transition: .4s;
+}
+
+.nav-norm_buttons:hover, .nav-norm_buttons p:hover {
+    font-size: 1.8vw;
+    cursor: pointer;
+}
+
+#nav-socials_button {
+    width: 10vw;
+    height: 100%;
+    background-color: rgb(55, 56, 68);
+    position: relative;
+    left: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: 1s;
+}
+
+#nav-socials_button p {
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    font-size: 1.4vw;
+    transition: .4s;
+}
+
+#nav-socials_button:hover, #nav-socials_button p:hover {
+    font-size: 1.8vw;
     cursor: pointer;
 }
