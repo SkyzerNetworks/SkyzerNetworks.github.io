@@ -175,11 +175,12 @@ body {
 }
 
 #section-container {
-    width: 100%;
+    width: 55vw;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: black;
 }
 
 #section-information_container {
@@ -192,10 +193,8 @@ body {
     border-bottom-left-radius: 5px;
     border: .1vw solid white;
     box-shadow: 0 0 100px rgb(0, 0, 0);
-    position: relative;
-    right: 20vw;
     display: flex;
-    justify-content: start;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
     gap: 2vh;
