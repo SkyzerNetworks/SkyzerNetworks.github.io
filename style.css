@@ -38,11 +38,36 @@ body {
     background-color: black;
 }
 
+/* Scroll Up Button */
+
+#button-circle {
+    width: 3vw;
+    height: 4vw;
+    position: fixed;
+    background-color: rgba(128, 128, 128, 0.493);
+    border-radius: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: .1vw solid darkgray;
+    box-shadow: 0 0 10px black;
+    left: 95vw;
+    top: 90vh;
+    cursor: pointer;
+}
+#up-button {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 3vw;
+    cursor: pointer;
+    text-decoration: none;
+}
+
 /* Page Container */
 
 #page-container {
     width: 100vw;
-    height: 860vh;
+    height: 760vh;
     background-color: rgb(36, 36, 48);
     overflow-y: scroll;
     display: flex;
@@ -91,6 +116,22 @@ body {
     color:rgb(229, 229, 255);
     font-size: 3.5vw;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#slogan-container {
+    width: 41vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:radial-gradient(rgb(72, 81, 99),rgb(58, 58, 74),rgb(58, 58, 74));
+}
+
+#slogan-container h3 {
+    overflow: visible;
+    color: rgb(229, 229, 255);
+    font-size: 1vw;
+    text-shadow: 0 6px 10px rgb(31, 31, 37);
 }
 
 /* Nav Block */
@@ -338,6 +379,7 @@ body {
     color: white;
     box-shadow: 0 10px 15px rgb(23, 25, 31);
     transition: .3s;
+    text-decoration: none;
 }
 
 .button-container a:hover {
@@ -422,7 +464,7 @@ body {
 
 #special-block {
     width: 100%;
-    height: 500vh;
+    height: 400vh;
     background-image: url("/images/dotgrid.jpg");
     border-bottom: .2vw solid white;
     box-shadow: 0 0 30px rgb(23, 25, 31) inset;
@@ -434,6 +476,84 @@ body {
     display: flex;
     justify-content: start;
     align-items: center;
+    flex-direction: column;
+}
+
+#Modeling-Section, #Coding-Section, #Video-Section, #Photo-Section {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    border-top: .2vw solid white;
+}
+
+.special-header_holder {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.special-info_header {
+    color: white;
+    font-family: inherit;
+    font-size: 3vw;
+    text-shadow: 0 0 30px black;
+    overflow: visible;
+}
+
+.special-group-hold {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.special-info-container {
+    width: 50%;
+    height: 65vh;
+    border-right: .3vw solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraph-holder {
+    width: 90%;
+    height: 90%;
+    background-color: rgb(27, 27, 27);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: .2vw solid grey;
+    box-shadow: 0 0 30px black;
+    border-radius: .5vw;
+}
+
+.info-paragraph {
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-size: 1.1vw;
+    line-height: 3vw;
+    width: 90%;
+}
+
+.image-holder_special {
+    width: 50%;
+    height: 65vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-holder_special img {
+    width: 40vw;
+    height: 30vw;
+    box-shadow: 0 0 30px black;
 }
 
 /* Footer Block */
