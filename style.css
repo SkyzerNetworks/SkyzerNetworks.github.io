@@ -345,6 +345,79 @@ body {
     cursor: pointer;
 }
 
+/* Section Future Block */
+
+#section-future-block {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(68, 68, 80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 10px black inset;
+    border-bottom: .2vw solid white;
+}
+
+#future-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#plans-holder {
+    width: 80vw;
+    height: 80vh;
+    background-image: linear-gradient(50deg, rgba(92, 93, 97, 0.5), rgba(100, 100, 104, 0.747), rgba(206, 206, 212, 0.26));
+    border-radius: 20px;
+    border: .2vw solid rgb(186, 186, 199);
+    box-shadow: 0 0 40px rgb(53, 55, 63);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+#plan-header-container {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#plan-header-container h1 {
+    font-family: inherit;
+    color: white;
+    font-size: 4vw;
+}
+
+#plan-info-container {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#plan-info-container ul {
+    width: 90%;
+    height: 90%;
+    background-color: rgb(46, 46, 46);
+    border: .1vw solid white;
+    list-style-position: inside;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#plan-info-container li {
+    color: white;
+    padding: 10px;
+    font-size: 1.2vw;
+    font-family: inherit;
+}
+
 /* Section Special Block */
 
 #special-block {
@@ -353,7 +426,6 @@ body {
     background-image: url("/images/dotgrid.jpg");
     border-bottom: .2vw solid white;
     box-shadow: 0 0 30px rgb(23, 25, 31) inset;
-    background-size: 1vw;
 }
 
 #special-container {
