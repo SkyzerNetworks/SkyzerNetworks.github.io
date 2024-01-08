@@ -19,7 +19,7 @@
   #space-background {
     width: 100vw;
     height: 100vh;
-    background-image: url('https://giffiles.alphacoders.com/166/16604.gif');
+    background-image: url('/images/spacerep.gif');
     background-size: cover;
     background-repeat: no-repeat;
     filter:contrast(400%) blur(10px) opacity(95%);
