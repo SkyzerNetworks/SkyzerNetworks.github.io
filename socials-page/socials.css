@@ -97,7 +97,6 @@
     width: 28vw;
     height: 65vh;
     border-radius: 2vw;
-    border: .2vw solid white;
     box-shadow: 0 0 20px black;
     display: flex;
     justify-content: center;
@@ -146,7 +145,7 @@
     width: 100%;
   }
 
-  .text-holder:hover {
+  .text-holder:hover, .text-holder a:hover {
     font-size: 1.7vw;
     cursor: pointer;
   }
