@@ -91,6 +91,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border: .2vw solid white;
   }
   
   #item-holder {
@@ -113,7 +114,6 @@
     align-items: center;
     flex-direction: row;
     gap: 2vw;
-    border: .2vw solid white;
   }
   
   .socials-holder {
@@ -143,6 +143,8 @@
     color: rgb(0, 0, 0);
     font-size: 1.5vw;
     width: 100%;
+    transition: 0.5s;
+    text-align: center;
   }
 
   .text-holder:hover, .text-holder a:hover {
