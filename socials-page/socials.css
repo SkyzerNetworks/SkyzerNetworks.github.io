@@ -21,7 +21,7 @@
     height: 100vh;
     z-index: 2;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     flex-direction: column;
   }
@@ -140,3 +140,54 @@
     font-size: 1.7vw;
     cursor: pointer;
   }
+
+
+@media screen and (max-width: 480px) {
+
+  #socials-block {
+    width: 85vw;
+    height: 52vh;
+  }
+
+  #profile-block {
+    width: 80vw;
+    height: 25vh;
+    gap: 2vh;
+  }
+
+  #name-holder h1 {
+    font-size: 4vw;
+  }
+
+  #pfp-holder {
+    width: 18vw;
+    height: 18vw;
+  }
+
+  #name-holder {
+    width: 100%;
+  } 
+
+  #item-holder {
+    width: 80vw;
+    height: 50vh;
+  }
+
+  .socials-holder {
+    width: 12vw;
+    height: 12vw;
+  }
+
+  .button-holder {
+    gap: 7vw;
+  }
+
+  .text-holder {
+    width: 50vw;
+    height: 5vh;
+  }
+
+  .text-holder a {
+    font-size: 4vw;
+  }
+}
