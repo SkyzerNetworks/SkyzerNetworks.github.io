@@ -11,19 +11,7 @@
   /* Page Color Change */
   
   body {
-    background-color: rgb(0, 255, 170);
-  }
-  
-  /* Page Background Image Space */
-  
-  #space-background {
-    width: 100vw;
-    height: 100vh;
-    background-image: url('/images/spacerep.gif');
-    background-size: cover;
-    background-repeat: no-repeat;
-    filter:contrast(400%) blur(10px) opacity(95%);
-    z-index: 1;
+    background-color: rgb(50, 52, 73);
   }
   
   /* Page Container */
@@ -31,8 +19,6 @@
   #page-container {
     width: 100vw;
     height: 100vh;
-    position: absolute;
-    bottom: 0vh;
     z-index: 2;
     display: flex;
     justify-content: center;
@@ -50,6 +36,7 @@
     align-items: center;
     flex-direction: column;
     gap: 2vh;
+    overflow: visible;
   }
   
   #pfp-holder {
@@ -91,6 +78,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: visible;
   }
   
   #item-holder {
@@ -132,7 +120,7 @@
     background-color: rgb(255, 255, 255);
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
-    box-shadow: 10px 10px 0px rgb(22, 56, 40);
+    box-shadow: 10px 10px 0px rgb(50, 52, 73);
     display: flex;
     justify-content: center;
     align-items: center;
