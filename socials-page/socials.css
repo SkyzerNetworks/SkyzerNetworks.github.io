@@ -12,6 +12,8 @@
   
   body {
     background-color: rgb(50, 52, 73);
+    width: 100%;
+    height: 100%;
   }
   
   /* Page Container */
@@ -19,11 +21,12 @@
   #page-container {
     width: 100vw;
     height: 100vh;
-    z-index: 2;
     display: flex;
     justify-content: start;
     align-items: center;
     flex-direction: column;
+    overflow-y: scroll;
+    gap: 3vh;
   }
   
   /* Socials Block */
@@ -35,25 +38,27 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 2vh;
+    gap: 1vh;
     overflow: visible;
   }
   
   #pfp-holder {
-    width: 7.5vw;
-    height: 7.5vw;
-    background-color: black;
-    border-radius: 20vw;
-    box-shadow: 0 0 20px black;
-    border: .2vw solid white;
-    overflow: hidden;
+    width: 30vw;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    overflow: visible;
   }
   
   #pfp-holder img {
-    width: 100%;
-    height: 100%;
-    border-radius: 20vw;
+    width: 7.5vw;
+    height: 7.5vw;
     overflow: hidden;
+    box-shadow: 0 0 20px black;
+    border: .2vw solid white;
+    border-radius: 20vw;
+    background-color: rgba(0, 0, 0, 0.692);
   }
   
   #name-holder {
@@ -141,12 +146,38 @@
     cursor: pointer;
   }
 
+  #socials-block2 {
+    width: 30vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: visible;
+  }
+  
+  #item-holder2 {
+    width: 28vw;
+    height: 30vh;
+    border-radius: 2vw;
+    box-shadow: 0 0 20px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    border: .2vw solid white;
+  }
 
 @media screen and (max-width: 480px) {
 
   #socials-block {
     width: 85vw;
     height: 52vh;
+  }
+
+  #socials-block2 {
+    width: 85vw;
+    height: 32vh;
   }
 
   #profile-block {
@@ -171,6 +202,13 @@
   #item-holder {
     width: 80vw;
     height: 50vh;
+    background-color: rgba(0, 0, 0, 0.658);
+  }
+
+  #item-holder2 {
+    width: 80vw;
+    height: 20vh;
+    background-color: rgba(0, 0, 0, 0.658);
   }
 
   .socials-holder {
@@ -189,5 +227,12 @@
 
   .text-holder a {
     font-size: 4vw;
+  }
+
+  body {
+    background-image: url("/images/socials-background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 }
