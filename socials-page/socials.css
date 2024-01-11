@@ -101,12 +101,14 @@ body {
   color: white;
   text-shadow: 0 0 15px black;
   overflow: visible;
+  font-size: 2vw;
 }
 
 #top-name_desc p {
   color: white;
   text-shadow: 0 0 15px black;
   overflow: visible;
+  font-size: 1.2vw;
 }
 
 /* Social Links */
@@ -123,9 +125,33 @@ body {
   color: white;
   text-shadow: 0 0 15px black;
   overflow: visible;
+  font-size: 2vw;
+}
+
+#link-header_top2 {
+  width: 100%;
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#link-header_top2 h2 {
+  color: white;
+  text-shadow: 0 0 15px black;
+  overflow: visible;
+  font-size: 2vw;
 }
 
 .button-holder {
+  width: 100%;
+  height: 12.5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-holder2 {
   width: 100%;
   height: 12.5vh;
   display: flex;
@@ -208,4 +234,81 @@ body {
   overflow: visible;
   color: white;
   text-shadow: 0 0 15px black;
+}
+
+@media screen and (max-width: 490px) {
+  #profile-top {
+    height: 20vh;
+  }
+
+  #pfp-holder img {
+    width: 18vw;
+    height: 18vw;
+  }
+
+  #top-name_desc h1 {
+    font-size: 6vw;
+  }
+
+  #top-name_desc p {
+    font-size: 3.2vw;
+  }
+
+  #link-header_top h2 {
+    font-size: 5vw;
+  }
+
+  #link-header_top2 h2 {
+    font-size: 5vw;
+  }
+
+  #link-header_top2 {
+    position: absolute;
+    top: 77vh;
+  }
+
+  #link-bottom {
+    gap: 16vh;
+    height: 45vh;
+  }
+
+  #video-holder {
+    left: 20vw;
+    top: 96vh;
+    width: 30vw;
+    height: 30vw;
+  }
+
+  #song-lable {
+    width: 32vw;
+    left: 55vw;
+    font-size: 2vw;
+    top: 97.5vh;
+  }
+  
+  #website-link {
+    height: 19vh;
+  }
+
+  .item-holder {
+    width: 60vw;
+  }
+
+  .item-holder a {
+    font-size: 4vw;
+    width: 40vw;
+  }
+
+  .item-holder img {
+    width: 8vw;
+    height: 8vw;
+  }
+
+  .button-holder, .button-holder2 {
+    width: 100vw;
+  }
+
+  #page-container {
+    height: 155vh;
+  }
 }
