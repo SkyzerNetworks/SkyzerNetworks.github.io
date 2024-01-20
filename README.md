@@ -1,13 +1,13 @@
-# SkyzerNetworks.github.io
+# Welcome To My Source Code!
 
-# Welcome To My Personal Site!
+## Code Information:
 
-## Information About The Site:
-
-* Hand coded by Skyzer Networks
-
-* Looking to advertise my work!
-
-* Hoping to help others with my source of learning
-
-* Making some dope static websites!
+> Date Created - 1 / 18 / 2024
+>
+> Current Version - 0.00.00 (Startup)
+>
+> Author - Michael (Founder/Owner)
+>
+> Company - Skyzer Networks
+>
+> Website Link - https://skyzernetworks.github.io
