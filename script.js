@@ -14,3 +14,15 @@ Source Code - https://github.com/SkyzerNetworks/SkyzerNetworks.github.io
 
 (END) */
 
+var redirectC = 1; // 1 = on , 0 = off
+
+function redirect_contruction() {
+    if (redirectC == 1) {
+        window.location.replace("http://127.0.0.1:5500/SkyzerNetworks.github.io-main/construction-page/construction.html");
+    }
+    else {
+        console.log("No Redirect");
+    }
+}
+
+redirect_contruction();
