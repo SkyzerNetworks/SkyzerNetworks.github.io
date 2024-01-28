@@ -50,6 +50,7 @@ Source Code - https://github.com/SkyzerNetworks/SkyzerNetworks.github.io
         background-color: white;
         justify-content: center;
         align-items: center;
+        gap: 2vw;
     }
 
     #header-banner {
@@ -82,22 +83,71 @@ Source Code - https://github.com/SkyzerNetworks/SkyzerNetworks.github.io
     }
 
     .nav-button {
-        width: 10vw;
+        width: 8vw;
         height: 10vh;
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
-    .nav-button a {
+    .nav-button_text {
         color: rgb(67, 67, 82);
         font-size: 20px;
         transition: 0.1s;
     }
 
-    .nav-button a:hover {
+    .nav-button_text:hover {
         color: rgb(186, 186, 241);
         cursor: pointer;
+    }
+
+    .dropdown-content a:hover {background-color: #ddd;}
+
+    .nav-button:hover .dropdown-content {display: block;}
+
+    #monkey-container:hover .monkey-dropdown {display: block;}
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        top: 10vh;
+        z-index: 1;
+    }
+      
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .monkey-dropdown {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        top: 3vh;
+        right: 7vw;
+        z-index: 1;
+    }
+
+    .monkey-dropdown a {
+        color: rgb(255, 0, 0);
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: center;
     }
 
     #end-container_nav {
@@ -157,9 +207,9 @@ Source Code - https://github.com/SkyzerNetworks/SkyzerNetworks.github.io
     }
 
     #commandments-title h2 {
-        color: white;
+        color: rgb(211, 212, 255);
         font-size: 40px;
-        text-shadow: 3px 3px 1px rgb(143, 143, 179);
+        text-shadow: 3px 3px 1px rgb(143, 143, 179), 6px 6px 1px rgb(67, 67, 85);
     }
 
     #commandments-holder {
@@ -182,4 +232,5 @@ Source Code - https://github.com/SkyzerNetworks/SkyzerNetworks.github.io
         text-align: left;
         width: 22vw;
         text-wrap: nowrap;
+        text-shadow: 3px 3px 1px rgb(143, 143, 179), 6px 6px 1px rgb(67, 67, 85);
     }
