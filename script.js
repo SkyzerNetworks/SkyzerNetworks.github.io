@@ -18,7 +18,7 @@ var redirectC = 1; // 1 = on , 0 = off
 
 function redirect_contruction() {
     if (redirectC == 1) {
-        window.location.replace("https://SkyzerNetworks.github.io/construction-page/construction.html");
+        window.location.replace("/construction-page/construction.html");
     }
     else {
         console.log("No Redirect");
