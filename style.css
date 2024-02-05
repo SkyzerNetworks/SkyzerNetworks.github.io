@@ -28,6 +28,27 @@ Source Code - https://github.com/SkyzerNetworks/SkyzerNetworks.github.io
     overflow-x: hidden;
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #b2b2b2;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #5a5966;
+    border-radius: 20px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ffffff;
+  }
+
 /* ------------------------- [ Page Design ] ------------------------- */
 
     /* ===[ Page Container ]=== */
