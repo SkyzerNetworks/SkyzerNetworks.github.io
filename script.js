@@ -25,4 +25,4 @@ function redirect_contruction() {
     }
 }
 
-redirect_contruction();
+// redirect_contruction();
