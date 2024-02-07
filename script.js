@@ -25,4 +25,9 @@ function redirect_contruction() {
     }
 }
 
-redirect_contruction();
+// redirect_contruction();
+
+function home_redirect() {
+    window.location.replace("/index.html");
+    console.log("User has been redirected to home page.");
+}

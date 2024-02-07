@@ -58,7 +58,7 @@ body {
         flex-direction: column;
         justify-content: start;
         align-items: center;
-        gap: 4vh;
+        gap: 8vh;
     }
 
     /* ===[ Image Spam ]=== */
@@ -68,7 +68,7 @@ body {
         height: 100vh;
         position: absolute;
         z-index: 0;
-        background-image: url("/images/instagram_logo.png");
+        background-image: url("/images/logos/instagram_logo.png");
         background-size: 10vh;
         opacity: 30%;
     }
@@ -130,7 +130,7 @@ body {
     #home-button {
         width: 4.1vw;
         height: 4.1vw;
-        background-image: url("/images/home-image.png");
+        background-image: url("/images/logos/home-image.png");
         position: absolute;
         background-image: cover;
         background-size: 4.05vw;
@@ -141,4 +141,11 @@ body {
         background-color: white;
         box-shadow: 0 0 20px black;
         cursor: pointer;
+        transition: 0.2s;
+    }
+
+    #home-button:hover {
+        width: 4.3vw;
+        height: 4.3vw;
+        background-size: 4.20vw;
     }

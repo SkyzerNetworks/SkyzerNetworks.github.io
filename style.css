@@ -77,7 +77,7 @@ Source Code - https://github.com/SkyzerNetworks/SkyzerNetworks.github.io
     #header-banner {
         width: 100vw;
         height: 100vh;
-        background-image: url("/images/Background-Header.png");
+        background-image: url("/images/backgrounds/Background-Header.png");
         background-size: cover;
         background-repeat: no-repeat;
         background-color: rgb(28, 31, 37);
