@@ -25,7 +25,7 @@ function redirect_contruction() {
     }
 }
 
-// redirect_contruction();
+redirect_contruction();
 
 function home_redirect() {
     window.location.replace("/index.html");
