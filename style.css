@@ -72,6 +72,7 @@ Source Code - https://github.com/SkyzerNetworks/SkyzerNetworks.github.io
         justify-content: center;
         align-items: center;
         gap: 2vw;
+        border-bottom: 2px solid rgb(47, 47, 63);
     }
 
     #header-banner {
@@ -86,6 +87,20 @@ Source Code - https://github.com/SkyzerNetworks/SkyzerNetworks.github.io
         align-items: center;
         flex-direction: column;
         gap: 5vh;
+        border-bottom: 4px solid white;
+    }
+
+    #top_section-banner {
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(21, 24, 31);
+        border-bottom: 4px solid white;
+        box-shadow: 0 0 50px black inset;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 3vh;
     }
 
     /* ===[ Navigation Styling Decor ]=== */
@@ -254,4 +269,76 @@ Source Code - https://github.com/SkyzerNetworks/SkyzerNetworks.github.io
         width: 22vw;
         text-wrap: nowrap;
         text-shadow: 3px 3px 1px rgb(143, 143, 179), 6px 6px 1px rgb(67, 67, 85);
+    }
+
+    /* ===[ Top Section Decor ]=== */
+
+    #goals-header_holder {
+        width: 65vw;
+        height: 10vh;
+        border-bottom: 3px solid white;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        box-shadow: 0 20px 40px rgb(32, 35, 39);
+        background-color: rgba(0, 0, 0, 0.452);
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    #goals-header_holder h2 {
+        color: white;
+        font-size: 3.5vw;
+        text-shadow: 3px 3px 1px black;
+        font-weight: bold;
+        text-align: center;
+        padding: 1vh;
+    }
+
+    #bottom_holder {
+        width: 100vw;
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 10vw;
+    }
+
+    #meme-guy_holder {
+        width: 30vw;
+        height: 30vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #meme-guy {
+        width: 30vw;
+        height: 25vw;
+    }
+
+    #goals-content_holder {
+        width: 40vw;
+        height: 70vh;
+        background-color: rgba(0, 0, 0, 0.767);
+        border-radius: 20px;
+        border: 2px solid white;
+        box-shadow: 0 0 20px black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #goals-content_holder h2 {
+        color: white;
+        font-size: 2vw;
+        padding: 3vh;
+        text-align: center;
+    }
+
+    #goals-content_holder li {
+        color: white;
+        font-size: 1vw;
+        padding: 1vh;
     }
