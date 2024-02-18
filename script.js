@@ -13,21 +13,3 @@ Company - SkyzerNetworks
 Source Code - https://github.com/SkyzerNetworks/SkyzerNetworks.github.io
 
 (END) */
-
-var redirectC = 1; // 1 = on , 0 = off
-
-function redirect_contruction() {
-    if (redirectC == 1) {
-        window.location.replace("/construction-page/construction.html");
-    }
-    else {
-        console.log("No Redirect");
-    }
-}
-
-redirect_contruction();
-
-function home_redirect() {
-    window.location.replace("/index.html");
-    console.log("User has been redirected to home page.");
-}
