@@ -32,9 +32,11 @@ Source Code - https://github.com/SkyzerNetworks/SkyzerNetworks.github.io
 }
 ::-webkit-scrollbar-track {
     background-color: var(--color5);
+    box-shadow: 0px 0px 20px rgb(197, 83, 83);
 }
 ::-webkit-scrollbar-thumb {
-    background-color: var(--color2)
+    background-color: var(--color2);
+    border-radius: 10px;
 }
 
 /* Page Fix */
@@ -59,7 +61,7 @@ Source Code - https://github.com/SkyzerNetworks/SkyzerNetworks.github.io
 
 #page_container {
     width: 100vw;
-    height: 500vh;
+    height: 200vh;
     background-image: url("/img/0002-b/blk_dotgrid.jpg");
     background-size: 15vw;
 }
@@ -159,4 +161,182 @@ header p {
     z-index: 0;
     box-shadow: 0 0 20px black inset;
     border-bottom: .3vh solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#s1-content_holder {
+    width: 80vw;
+    height: 100vh;
+    box-shadow: 0 0 20px black inset;
+}
+
+#s1-right_holder {
+    width: 20vw;
+    height: 100vh;
+    background-color: rgb(31, 31, 31);
+    border-left: .2vw solid white;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    gap: 10vh;
+}
+
+#s1-right_holder h2 {
+    color: white;
+    font-size: 3vw;
+    padding: 20px;
+    text-align: center;
+    text-shadow: 5px 5px 0px black;
+}
+
+.about-buttons {
+    width: 15vw;
+    height: 5vh;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    box-shadow: 4px 4px 0px black;
+    transition: ease-in-out 0.2s;
+}
+
+.about-buttons:hover {
+    color: white;
+    background-color: rgb(14, 14, 14);
+    border: .1vw solid white;
+    cursor: pointer;
+}
+
+#commandments-banner {
+    width: 80vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(109, 61, 61, 0.329);
+    gap: 5vh;
+}
+
+#commandments-banner h2 {
+    color: white;
+    font-size: 4vw;
+    text-shadow: 4px 4px 0px black;
+    padding: 20px;
+    border-bottom: .3vh solid white;
+    border-radius: 15px;
+}
+
+#commandments-banner p {
+    color: white;
+    text-shadow: 2px 2px 0px black;
+    font-size: 1.3vw;
+    border-left: .2vw solid white;
+    width: 33vw;
+    padding: 10px;
+    text-align: center;
+}
+
+#goals-banner {
+    width: 80vw;
+    height: 100vh;
+    background-color: rgba(255, 200, 97, 0.137);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+#goals-banner h2 {
+    color: white;
+    font-size: 4vw;
+    text-shadow: 4px 4px 0px black;
+    padding: 20px;
+    border-bottom: .3vh solid white;
+    border-radius: 15px;
+}
+
+#goals-banner p {
+    width: 40vw;
+    height: 40vh;
+    font-size: 1.3vw;
+    color: white;
+    text-shadow: 2px 2px 0px black;
+    padding: 10px;
+    line-height: 40px;
+    text-align: center;
+}
+
+#foundation-banner {
+    width: 80vw;
+    height: 100vh;
+    background-color: rgba(105, 255, 118, 0.226);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+#foundation-banner h2 {
+    color: white;
+    font-size: 4vw;
+    text-shadow: 4px 4px 0px black;
+    padding: 20px;
+    border-bottom: .3vh solid white;
+    border-radius: 15px;
+}
+
+#foundation-banner p {
+    width: 40vw;
+    height: 40vh;
+    font-size: 1.3vw;
+    color: white;
+    text-shadow: 2px 2px 0px black;
+    padding: 10px;
+    line-height: 40px;
+    text-align: center;
+}
+
+#background-banner {
+    width: 80vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 255, 0.158);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+#background-banner h2 {
+    color: white;
+    font-size: 4vw;
+    text-shadow: 4px 4px 0px black;
+    padding: 20px;
+    border-bottom: .3vh solid white;
+    border-radius: 15px;
+}
+
+#background-banner p {
+    width: 40vw;
+    height: 40vh;
+    font-size: 1.3vw;
+    color: white;
+    text-shadow: 2px 2px 0px black;
+    padding: 10px;
+    line-height: 40px;
+    text-align: center;
+}
+
+
+/* Footer Banner / Block */
+
+footer {
+    width: 100vw;
+    height: 50vh;
+    background-color: blue;
 }
